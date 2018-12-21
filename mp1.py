@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-%matplotlib inline
+#%matplotlib inline J'ai commenté ce code
 import numpy as np
 
 # On some implementations of matplotlib, you may need to change this value
@@ -75,11 +75,11 @@ def generate_a_triangle(noise=0.0, free_location=False):
 im = generate_a_rectangle(10, True)
 plt.imshow(im.reshape(IMAGE_SIZE,IMAGE_SIZE), cmap='gray')
 
-im = generate_a_disk(10)
-plt.imshow(im.reshape(IMAGE_SIZE,IMAGE_SIZE), cmap='gray')
+
 
 [im, v] = generate_a_triangle(20, False)
-plt.imshow(im.reshape(IMAGE_SIZE,IMAGE_SIZE), cmap='gray')
+plt.imshow(im.reshape(IMAGE_SIZE,IMAGE_SIZE), cim = generate_a_disk(10)
+plt.imshow(im.reshape(IMAGE_SIZE,IMAGE_SIZE), cmap='gray')map='gray')
 
 
 def generate_dataset_classification(nb_samples, noise=0.0, free_location=False):
